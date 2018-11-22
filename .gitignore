@@ -1,9 +1,9 @@
 # CakePHP 2
 
+app/Config/database.php
 app/tmp/
 /vendor/*
-/config/app.php
-app/tmp/
+config/app.php
 /tmp/cache/models/*
 !/tmp/cache/models/empty
 /tmp/cache/persistent/*

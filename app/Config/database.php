@@ -71,7 +71,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'Teia08329',
+		'password' => 'root',
 		'database' => 'anuntium',
 		'prefix' => '',
 		//'encoding' => 'utf8',

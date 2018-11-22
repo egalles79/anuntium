@@ -893,6 +893,7 @@ public function api_login() {
         $this->autoRender = false;
         http_response_code(401);
         $arrReturn = array();
+
         if ($this->request->data && isset($this->request->data['username']) && isset($this->request->data['password'])) {
 
             $arrUser  = $this->User->find('all',array(
@@ -902,8 +903,6 @@ public function api_login() {
                     )
                 )
             );
-
-
 
             if (count($arrUser) > 0) {
                 $this->Session->write('Auth.User',$arrUser[0]['User']);
@@ -915,6 +914,7 @@ public function api_login() {
 
                 if (!empty($hasAuth) && (date($hasAuth[0]['Authentication']['expires_on']) < date('Y-m-d H:i:s'))) {
                 	$query = 'DELETE FROM authentications where user_id ='.$userId;
+                	
                 	$this->Authentication->query($query);
                 	
                 	$authenticationData['Authentication']['user_id'] = $userId;
@@ -929,9 +929,8 @@ public function api_login() {
 		    			
 		    		}
                 } else {
-
                 	if (!empty($hasAuth)) {
-                		$tokenValue = $this->_getToken(null, $hasAuth['Authentication']['token']);
+                		$tokenValue = $this->_getToken(null, $hasAuth[0]['Authentication']['token']);
                 	} else {
                 		$authenticationData['Authentication']['user_id'] = $userId;
 			    		$sessionMinutes 								 = Configure::read('Session.timeout');
