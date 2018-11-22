@@ -912,8 +912,11 @@ public function api_login() {
                 $this->loadModel('Authentication');
                 $userId = $arrUser[0]['User']['id'];
                 $hasAuth = $this->Authentication->findAllByUserId($userId,null,array('expires_on' => 'DESC'));
+
                 if (!empty($hasAuth) && (date($hasAuth[0]['Authentication']['expires_on']) < date('Y-m-d H:i:s'))) {
-                	$this->query('DELETE * FROM authentications where user_id ='.$userId);
+                	$query = 'DELETE FROM authentications where user_id ='.$userId;
+                	$this->Authentication->query($query);
+                	
                 	$authenticationData['Authentication']['user_id'] = $userId;
 		    		$sessionMinutes 								 = Configure::read('Session.timeout');
 		    		
@@ -923,10 +926,12 @@ public function api_login() {
 		    		$this->Authentication->create();
 		    		if ($this->Authentication->save($authenticationData)) {
 		    			$tokenValue = $this->_getToken(null, $authenticationData['Authentication']['token']);
+		    			
 		    		}
                 } else {
+
                 	if (!empty($hasAuth)) {
-                		$tokenValue = $this->_getToken(null, $hasAuth[0]['Authentication']['token']);
+                		$tokenValue = $this->_getToken(null, $hasAuth['Authentication']['token']);
                 	} else {
                 		$authenticationData['Authentication']['user_id'] = $userId;
 			    		$sessionMinutes 								 = Configure::read('Session.timeout');
@@ -941,7 +946,6 @@ public function api_login() {
                 	}
                  }
                 
-
                 $arrReturn = array('token' => $tokenValue);
 
             } 

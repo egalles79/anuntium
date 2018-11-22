@@ -3,7 +3,7 @@ app/Config/
 app/tmp/
 /vendor/*
 /config/app.php
-
+app/tmp/
 /tmp/cache/models/*
 !/tmp/cache/models/empty
 /tmp/cache/persistent/*
