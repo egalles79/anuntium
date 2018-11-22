@@ -7712,3 +7712,2175 @@ Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayo
 Stack Trace:
 #0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2018-11-22 20:43:29 Error: [MissingControllerException] Controller class Robots.txtController could not be found.
+Exception Attributes: array (
+  'class' => 'Robots.txtController',
+  'plugin' => NULL,
+)
+Request URL: /robots.txt?url=robots.txt
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 20:43:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/login/bg3.jpg?url=img%2Flogin%2Fbg3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 20:43:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/login/login-invert.png?url=img%2Flogin%2Flogin-invert.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: Fatal Error (1): Call to undefined method UsersController::query() in [/Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php, line 916]
+2018-11-22 21:02:58 Error: [FatalErrorException] Call to undefined method UsersController::query()
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/eloigall...', 916)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:58 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:02:59 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:27 Error: Fatal Error (1): Call to undefined method UsersController::query() in [/Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php, line 916]
+2018-11-22 21:04:27 Error: [FatalErrorException] Call to undefined method UsersController::query()
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/eloigall...', 916)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:29 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: Fatal Error (1): Call to undefined method UsersController::query() in [/Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php, line 916]
+2018-11-22 21:04:55 Error: [FatalErrorException] Call to undefined method UsersController::query()
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/eloigall...', 916)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:55 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:04:56 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:35 Error: Fatal Error (1): Call to undefined method UsersController::query() in [/Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php, line 916]
+2018-11-22 21:05:35 Error: [FatalErrorException] Call to undefined method UsersController::query()
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Users/eloigall...', 916)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Users/eloigall...', 916, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:36 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:05:37 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM authentications where user_id =1' at line 1
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('DELETE * FROM a...', Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('DELETE * FROM a...', Array, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('DELETE * FROM a...', false)
+#4 [internal function]: DboSource->query('DELETE * FROM a...', false)
+#5 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Model.php(3476): call_user_func_array(Array, Array)
+#6 /Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php(916): Model->query('DELETE * FROM a...')
+#7 [internal function]: UsersController->api_login()
+#8 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:15 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:16 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:48 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM authentications where user_id =1' at line 1
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('DELETE * FROM a...', Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('DELETE * FROM a...', Array, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('DELETE * FROM a...', false)
+#4 [internal function]: DboSource->query('DELETE * FROM a...', false)
+#5 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Model.php(3476): call_user_func_array(Array, Array)
+#6 /Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php(916): Model->query('DELETE * FROM a...')
+#7 [internal function]: UsersController->api_login()
+#8 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:06:50 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:02 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM authentications where user_id =1' at line 1
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('DELETE * FROM a...', Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('DELETE * FROM a...', Array, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('DELETE * FROM a...', false)
+#4 [internal function]: DboSource->query('DELETE * FROM a...', false)
+#5 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Model.php(3476): call_user_func_array(Array, Array)
+#6 /Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php(918): Model->query('DELETE * FROM a...')
+#7 [internal function]: UsersController->api_login()
+#8 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:04 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:05 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:21 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM authentications where user_id =1' at line 1
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('DELETE * FROM a...', Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('DELETE * FROM a...', Array, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('DELETE * FROM a...', false)
+#4 [internal function]: DboSource->query('DELETE * FROM a...', false)
+#5 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Model.php(3476): call_user_func_array(Array, Array)
+#6 /Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php(918): Model->query('DELETE * FROM a...')
+#7 [internal function]: UsersController->api_login()
+#8 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:22 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:23 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:24 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:41 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '* FROM authentications where user_id =1' at line 1
+Request URL: /users/api_login?url=users%2Fapi_login
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(472): PDOStatement->execute(Array)
+#1 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(438): DboSource->_execute('DELETE * FROM a...', Array)
+#2 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(675): DboSource->execute('DELETE * FROM a...', Array, Array)
+#3 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('DELETE * FROM a...', false)
+#4 [internal function]: DboSource->query('DELETE * FROM a...', false)
+#5 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Model/Model.php(3476): call_user_func_array(Array, Array)
+#6 /Users/eloigalles/Documents/Anuntium/api/app/Controller/UsersController.php(918): Model->query('DELETE * FROM a...')
+#7 [internal function]: UsersController->api_login()
+#8 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eloigalles/Documents/Anuntium/api/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2018-11-22 21:08:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/font-awesome/css/font-awesome.min.css?url=assets%2Fglobal%2Fplugins%2Ffont-awesome%2Fcss%2Ffont-awesome.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/fancybox/source/jquery.fancybox.css?url=assets%2Fglobal%2Fplugins%2Ffancybox%2Fsource%2Fjquery.fancybox.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:42 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/uniform/css/uniform.default.css?url=assets%2Fglobal%2Fplugins%2Funiform%2Fcss%2Funiform.default.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/jquery-nestable/jquery.nestable.css?url=assets%2Fglobal%2Fplugins%2Fjquery-nestable%2Fjquery.nestable.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/css/plugins.min.css?url=assets%2Fglobal%2Fcss%2Fplugins.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/simple-line-icons/simple-line-icons.min.css?url=assets%2Fglobal%2Fplugins%2Fsimple-line-icons%2Fsimple-line-icons.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/layout.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Flayout.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/select2/css/select2.min.css?url=assets%2Fglobal%2Fplugins%2Fselect2%2Fcss%2Fselect2.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/css/themes/darkblue.min.css?url=assets%2Flayouts%2Flayout%2Fcss%2Fthemes%2Fdarkblue.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/magnific-popup.css?url=css%2Fmagnific-popup.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/pages/css/pricing.min.css?url=assets%2Fpages%2Fcss%2Fpricing.min.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/global/plugins/icheck/skins/all.css?url=assets%2Fglobal%2Fplugins%2Ficheck%2Fskins%2Fall.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/default.css?url=css%2Fdefault.css
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/logo.png?url=assets%2Flayouts%2Flayout%2Fimg%2Flogo.png
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3_small.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3_small.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar3.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar3.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar1.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar1.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar4.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar4.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar2.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar2.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar6.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar6.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:43 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar7.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar7.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar8.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar8.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar9.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar9.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar10.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar10.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2018-11-22 21:08:44 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /assets/layouts/layout/img/avatar11.jpg?url=assets%2Flayouts%2Flayout%2Fimg%2Favatar11.jpg
+Stack Trace:
+#0 /Users/eloigalles/Documents/Anuntium/api/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
