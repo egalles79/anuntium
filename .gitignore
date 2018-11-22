@@ -1,5 +1,6 @@
-# CakePHP 3
+# CakePHP 2
 
+app/tmp/
 /vendor/*
 /config/app.php
 app/tmp/
