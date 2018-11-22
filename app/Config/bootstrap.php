@@ -27,7 +27,7 @@ Cache::config('default', array('engine' => 'File'));
 CakePlugin::load('AclExtras');
 CakePlugin::load('DebugKit');
 
-define('SERVER','http://api.anuntium.local/');
+define('SERVER','http://anuntium.com/api/');
 
 define('ADMIN','1');
 define('DIRECCIO','2');
